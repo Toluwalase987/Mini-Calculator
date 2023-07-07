@@ -1,0 +1,26 @@
+.button {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    background-color: #544f9b;
+    color: white;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    border: none;
+    cursor: pointer; 
+    font-size: 1.1rem;
+  }
+  
+  .button.outline {
+    background-color: white;
+    color: #766df4;
+    border: 0.5px solid #766df4;
+    cursor: pointer;
+  }
+  
+  .button.small {
+    font-size: 1rem;
+    display: inline-flex;
+    margin-left: auto;
+  }

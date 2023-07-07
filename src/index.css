@@ -1,0 +1,21 @@
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282D35;
+}
+
+.mainbod{
+    border: 5px solid aqua;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    height: 40rem;
+    text-align: center;
+    margin-top: 60px;
+}

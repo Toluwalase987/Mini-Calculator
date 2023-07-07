@@ -1,0 +1,32 @@
+.generator{
+    background-color: #282D35;
+
+}
+.result{
+    border:2px solid gray;
+    /* position: absolute; */
+    left: 43%;
+    padding: 100px;
+    font-size: 50px;
+    color: white;
+}
+
+form{
+    margin-top: 20px;
+}
+input{
+    padding: 10px;
+    border: 2px solid gray;
+}
+.input1{
+    margin-right: 15px;
+}
+.input2{
+    margin-left: 15px;
+}
+
+.sign{
+    font-size: 30px;
+    color: white;
+}
+
