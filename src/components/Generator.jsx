@@ -155,12 +155,14 @@ export default function Generator(){
         <div className="generator">
             <div className="result">{state.result}</div>
             <form onSubmit={handleSubmit}>
-                <input onChange={handleChange} name='firstNumber' value={state.formData.firstNumber} className="input1" type="number"/>
-                <label className="sign">{state.sign}</label>
-                <input onChange={handleChange} name='secondNumber' value={state.formData.secondNumber} className="input2" type="number"/><br/>
-               
-                <Button onClick={handleAddition} style={{marginTop:'70px', marginRight:'10px', width: '100px'}}>
-                    <FaPlus/>
+                <div className="input-sign">
+                    <input onChange={handleChange} name='firstNumber' value={state.formData.firstNumber} className="input1" type="number"/>
+                    <label className="sign">{state.sign}</label>
+                    <input onChange={handleChange} name='secondNumber' value={state.formData.secondNumber} className="input2" type="number"/><br/>
+                </div>
+               <div className="all-buttons">
+               <Button className='first-btn' onClick={handleAddition} style={{marginTop:'70px', marginRight:'10px', width: '100px'}}>
+                    <FaPlus/> 
                 </Button>
                 <Button onClick={handleMultiplication} style={{width: '100px'}}>
                         <FaTimes/>
@@ -179,6 +181,7 @@ export default function Generator(){
                 <Button onSubmit={handleSubmit} style={{marginTop:'40px', padding:"20px", width: '200px'}}>
                     <FaEquals/>
                 </Button>
+               </div>
             </form>
         </div>
     )

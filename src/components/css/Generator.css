@@ -6,9 +6,9 @@
     border:2px solid gray;
     /* position: absolute; */
     left: 43%;
-    padding: 100px;
+    padding: 70px;
     font-size: 50px;
-    color: white;
+    color: white; 
 }
 
 form{
@@ -24,9 +24,38 @@ input{
 .input2{
     margin-left: 15px;
 }
+@media (max-width: 741px) {
+    .input1{
+        margin-left: 80px;
+        width: 50%;
+    }
+    .input2{
+        width: 50%;
+        margin-left: 80px; 
+    }
+    .input-sign{
+        display: grid;
+        gap: -30px;
+        align-items: center;
+        /* margin-bottom: -50px; */
+        }
+    .result{
+        font-size: 30px;
+    }
+    .sign{
+        text-align: center;
+        /* position: fixed; */
+        color: red;
+        bottom: 320px;
+    }
+    .all-buttons{
+        margin-bottom: 90px;
+    }
+}
 
 .sign{
     font-size: 30px;
     color: white;
 }
+   
 
